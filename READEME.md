@@ -2,8 +2,8 @@ TRABALHO HUCK BURGUER - PROFESSORA LUANA FERNANDES (04/04/2019)
 
 INTEGRANTES DO GRUPO:
     Thais Cassiano
-    ¡llef
+    √Ållef
     Gabriel Granado 
-    JosÈ Paiva  
+    Jos√© Paiva  
     Marcelo Andrade
     Matheus Modesto 
