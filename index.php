@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <!--
 
 TRABALHO HUCK BURGUER - PROFESSORA LUANA FERNANDES (04/04/2019)
@@ -31,10 +32,10 @@ INTEGRANTES DO GRUPO:
                 <form action="gravar.php" method="POST">
                     <h5>Dados do Cliente</h5>
                     <div class="form-group">
-                        <label for="">Nome:</label><input type="text" id="inNome" name="inNome" class="form-control" required> 
+                        <label for="">Nome:</label><input type="text" id="inNome" name="inNome" class="form-control"> 
                     </div>
                     <div class="form-group">
-                        <label for="">Telefone:</label><input type="tel" id="inTelefone" name="inTelefone" class="form-control" required> 
+                        <label for="">Telefone:</label><input type="tel" id="inTelefone" name="inTelefone" class="form-control"> 
                     </div>
                     <br>
                     

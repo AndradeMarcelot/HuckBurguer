@@ -17,7 +17,7 @@
             /* 
              * Grava os dados no banco, mas ainda precisa do tratamento para não
              * regravar dados quando a página é atualizada.
-             * (Problema no uso do isset)
+             * 
              */
 
             $nome           = $_POST['inNome'];
@@ -26,7 +26,7 @@
             $opt_pao        = $_POST['optPao'];
             $opt_queijo     = $_POST['optQueijo'];
             $observacao     = $_POST['inObservacao'];
-
+            
             if(!empty($nome) && !empty($telefone) && !empty($ponto_carne) && !empty($opt_pao) && !empty($opt_queijo)){
                 include_once 'conexao.php';
 
@@ -43,7 +43,7 @@
 
                 mysqli_close($conexao);
             }else{
-                echo "<p class='alert alert-danger>Preecha todos os campos!</p>";   
+                echo "<p class='alert alert-danger'>Preecha todos os campos!</p>";   
             }
 
             ?>
@@ -61,4 +61,6 @@
   
     </body>
 </html>
+
+
 

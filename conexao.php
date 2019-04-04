@@ -8,7 +8,7 @@
 
 $bdServidor = 'localhost';
 $bdUsuario = 'root';
-$bdSenha = 'Oracle%9751';
+$bdSenha = '';
 $bdBanco = 'huckburguer';
         
 $conexao = mysqli_connect($bdServidor, $bdUsuario, $bdSenha, $bdBanco) or die("Não foi possível conectar");
